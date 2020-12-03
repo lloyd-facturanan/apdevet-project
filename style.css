@@ -107,7 +107,7 @@ html{
 	content: "";
 	top: 0;
 	left: 0;
-	height: 45%;
+	height: 40%;
 	width: 100%;
 	background: lightblue;
 	z-index: -1;
@@ -304,6 +304,9 @@ html{
 }
 
 @media only screen and (max-width: 600px){
+	.title{
+		font-size: 1.2rem;
+	}
 	.box{
 		width: 350px;
 	}
@@ -334,6 +337,9 @@ html{
 	}
 
 	/* Team */
+	.team{
+		font-size: 1.2rem;
+	}
 	.team::before{
 		width: 20%;
 	}
@@ -342,7 +348,15 @@ html{
 		width: 20%;
 	}
 
+	.box .pic-container{
+		height: 250px;
+		width: 250px;
+	}
+
 	/* Skills */
+	.skills-title{
+		font-size: 1rem;
+	}
 	.skills-title::before{
 		width: 9%;
 	}
@@ -351,13 +365,34 @@ html{
 		width: 9%;
 	}
 
+	.icon{
+		height: 180px;
+		width: 180px;
+	}
+
+	.icon i{
+		font-size: 6.5rem;
+	}
+
 	/* about */
+	.about-txt{
+		font-size: 1.2rem;
+	}
 	.about-txt::before{
 		width: 23%;
 	}
 
 	.about-txt::after{
 		width: 23%;
+	}
+
+	.about-p{
+		font-size: .8rem;
+	}
+
+	/* Footer */
+	.f-bottom{
+		font-size: .7rem !important;
 	}
 
 }
