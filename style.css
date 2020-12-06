@@ -324,6 +324,12 @@ html{
 	color: #fff;
 }
 
+.footer-form input, .footer-form button{
+	width: 60%;
+	border-radius: 0px;
+}
+
+
 @media only screen and (max-width: 600px){
 	.title{
 		font-size: 1.2rem;
@@ -355,11 +361,19 @@ html{
 		flex-direction: column;
 	}
 
+	.title{
+		font-size: 1rem;
+	}
+
 	.main-nav{
 		display: flex;
 		flex-direction: column;
 		align-items: flex-end;
 		justify-content: flex-end;
+	}
+
+	.main-nav li a{
+		font-size: .7rem;
 	}
 
 	#hidden-nav{
@@ -439,6 +453,11 @@ html{
 	/* Footer */
 	.f-bottom{
 		font-size: .65rem !important;
+	}
+
+	.footer-form input, .footer-form button{
+		width: 100%;
+		border-radius: 0px;
 	}
 
 }
